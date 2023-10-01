@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "credit-scoring-cftshift-ml2023"
+version = "0.1.0"
+description = "Dependencies combined for CFT shift ML project featuring credit scoring pipeline"
+authors = ["m_rezvukhin <m.rezvukhin@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+jupyter = "^1.0.0"
+psycopg2-binary = "^2.9.7"
+pandas = "^2.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
